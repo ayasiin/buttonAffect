@@ -4,6 +4,6 @@ btnEl.addEventListener('mouseover', (event)=>{
 
     const n = (event.pageN - btnEl.offseRight);
     btnEl.style.setPropert('--xPos', m + 'px')
-    btnEltnEl.style.setPropert('--xPos', n+ 'px')
+    btnEl.style.setPropert('--xPos', n+ 'px')
 
 })
